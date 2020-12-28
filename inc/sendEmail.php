@@ -31,7 +31,7 @@
 	$message .= "Email address: " . $email . "\n\r";
 	$message .= "Message: \n\r";
 	$message .= $contact_message;
-	$message .= "\n\rThis email was sent from your site's contact form. \n\r";
+	$message .= "\n\rThis email was sent from your site's contact form \n\r";
 
 	file_put_contents('contactData.txt', $message, FILE_APPEND | LOCK_EX);
 	// Set From: header
