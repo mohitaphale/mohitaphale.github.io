@@ -2,7 +2,6 @@
 
 // Replace this with your own email address
 // $siteOwnersEmail = 'user@website.com';
-
 	if($_POST) {
 
 	$name = trim(stripslashes($_POST['contactName']));
@@ -33,7 +32,9 @@
 	$message .= $contact_message;
 	$message .= "\n\rThis email was sent from your site's contact form \n\r";
 
-	file_put_contents('contactData.txt', $message, FILE_APPEND | LOCK_EX);
+	$fp = fopen('contactData.txt', 'a');
+	fwrite($fp, $message);
+	fclose($fp)
 	// Set From: header
 	/*$from =  $name . " <" . $email . ">";
 
