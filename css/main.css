@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	margin-bottom: 2.1rem;
 }
 h3, .h03, h4, .h04 {
-	margin-bottom: 1.8rem;
+	margin-bottom: 1rem;
 }
 h5, .h05, h6, .h06 {
 	font-family: "poppins-bold";
@@ -131,7 +131,7 @@ h2, .h02 {
 }
 h3, .h03 {
 	font-size: 2rem;
-	line-height: 1.5;
+	line-height: 1;
 }
 h4, .h04 {
 	font-size: 1.7rem;
@@ -1682,9 +1682,9 @@ header .logo a {
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #727272;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1693,8 +1693,9 @@ header .logo a {
 #resume .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
+	color: #4b4b4b;
 }
-#resume .timeline-content h4::after {
+/*#resume .timeline-content h4::after {
 	content: "";
 	display: block;
 	height: 3px;
@@ -1703,7 +1704,7 @@ header .logo a {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-}
+}*/
 
 /**
  * responsive:
@@ -1719,6 +1720,7 @@ header .logo a {
 	}
 	#resume .timeline-header p {
 		font-size: 1.4rem;
+		font
 	}
 	#resume .timeline-content {
 		padding-left: 50px;
