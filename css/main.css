@@ -1119,7 +1119,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	background: url("../images/logo_1.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1326,7 +1326,7 @@ header .logo a {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "Consolas", sans-serif;
+	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1341,13 +1341,14 @@ header .logo a {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "Consolas", serif;
+	font-family: "poppins-regular", sans-serif;
+	margin-top:10px;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1359,14 +1360,12 @@ header .logo a {
 	display: inline-block;
 }
 .intro-content .intro-position span::after {
-	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .intro-position span:first-child::before {
-	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
