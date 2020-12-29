@@ -2192,6 +2192,22 @@ header .logo a {
 #stats .row {
 	max-width: 1440px;
 }
+
+#styles { 
+	background: white;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+#styles .row {
+	max-width: 1024px;
+  }
+  #styles .section-intro {
+	max-width: 800px;
+}
+
+#about .row2 {
+	max-width: 1440px;
+}
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
 	min-height: 17.4rem;
