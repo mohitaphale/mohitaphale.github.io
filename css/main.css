@@ -1488,6 +1488,45 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+ /*
+ #btn {
+	background: rgb(180, 180, 180);
+	min-height: 40px;
+	min-width: 40px;
+	max-width: 400px;
+	border: none;
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	position: relative;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding-top: 5px;
+  }
+
+  .skilltags {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+  }
+  
+  #btn #circle {
+	width: 3px;
+	height: 3px;
+	background: transparent;
+	border-radius: 30%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	overflow: hidden;
+	transition: 500ms;
+  } */
+
+ 
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
