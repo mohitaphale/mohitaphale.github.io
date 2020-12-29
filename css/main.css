@@ -673,6 +673,12 @@ input[type="button"] {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+#skilltag .skilltag {
+	height: 4rem;
+	line-height: 4rem;
+}
+
 .button:hover,
 a.button:hover,
 button:hover,
