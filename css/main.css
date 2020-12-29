@@ -957,6 +957,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 	position: relative;
 }
+
+.skill-tags {
+	top: -3rem;
+	font-family: "poppins-semibold", sans-serif;
+	color: #464646;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
 .skill-bars li strong {
 	position: absolute;
 	left: 0;
