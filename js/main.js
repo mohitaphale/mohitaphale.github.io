@@ -140,8 +140,8 @@
 
 	$('.menu-toggle').click( function(event) {
 		event.stopPropagation();
-		$('.menu-toggle').addClass('is-clicked');
-		$('.main-navigation').slideDown("fast");
+		$('.menu-toggle').toggleClass('is-clicked');
+		$('.main-navigation').toggle("fast");
 	});
 
 	$(document).click( function(){
