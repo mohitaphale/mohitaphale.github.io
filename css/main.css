@@ -674,10 +674,32 @@ input[type="button"] {
 	transition: all 0.3s ease-in-out;
 }
 
-#skilltag .skilltag {
+.skill-tags {
+	display: inline-block;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
 	height: 4rem;
 	line-height: 4rem;
+	padding: 0 1rem;
+	margin: 0 7px 10px 0;
+	background: #d8d8d8;
+	color: #313131;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	border: none;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 4px;
 }
+
+
 
 .button:hover,
 a.button:hover,
@@ -958,7 +980,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 
-.skill-tags {
+/*.skill-tags {
 	top: -3rem;
 	font-family: "poppins-semibold", sans-serif;
 	color: #464646;
@@ -966,7 +988,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
-}
+}*/
 
 .skill-bars li strong {
 	position: absolute;
