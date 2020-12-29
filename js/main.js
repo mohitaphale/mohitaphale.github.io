@@ -136,28 +136,19 @@
 	
 	/*-----------------------------------------------------*/
   	/* Navigation Menu
-   ------------------------------------------------------ */  
-   var toggleButton = $('.menu-toggle'),
-       nav = $('.main-navigation');
+   ------------------------------------------------------ */   
 
-   // toggle button
-   toggleButton.on('click', function(e) {
-
-		e.preventDefault();
-		toggleButton.toggleClass('is-clicked');
-		nav.slideToggle();
-
+	$('.menu-toggle').click( function(event) {
+		event.stopPropagation();
+		$('.menu-toggle').addClass('is-clicked');
+		$('.main-navigation').slideDown("fast");
 	});
 
-   // nav items
-  	nav.find('li a').on("click", function() {   
+	$(document).click( function(){
+		$('.menu-toggle').removeClass('is-clicked');
+		$('.main-navigation').slideUp("fast");
+	});
 
-   	// update the toggle button 		
-   	toggleButton.toggleClass('is-clicked'); 
-   	// fadeout the navigation panel
-   	nav.fadeOut();   		
-   	     
-  	});
 
 
    /*---------------------------------------------------- */
