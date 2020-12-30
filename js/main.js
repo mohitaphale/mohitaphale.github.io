@@ -29,7 +29,7 @@
     ------------------------------------------------------ */
     setTimeout(function() {
 
-        $('#particles h1').fitText(1, {
+        $('#intro h1').fitText(1, {
             minFontSize: '42px',
             maxFontSize: '84px'
         });
