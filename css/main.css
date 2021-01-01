@@ -2513,6 +2513,10 @@ header .logo a {
 .contact-info .icon {
 	margin-bottom: 2.1rem;
 }
+
+.contact-info p {
+	color: #FFFFFF
+}
 .contact-info .icon i {
 	font-size: 4.2rem;
 	color: #FFFFFF;
