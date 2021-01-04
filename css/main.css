@@ -101,7 +101,7 @@ a:hover, a:focus, a:active {
  * ------------------------------------------------------------------- 
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "poppins-semibold", sans-serif;
+	font-family: 'Mukta', sans-serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -153,11 +153,13 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "poppins-regular", sans-serif;
-	font-size: 1.7rem;
+	font-family: 'Mukta', sans-serif;
+	font-size: 1.8rem;
 	line-height: 1.8;
-	color: #888888;
+	font-weight: 400;
+	color: #424242;
 }
+
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
@@ -1079,7 +1081,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #FF0077;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -1164,6 +1166,7 @@ header .logo a {
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
+
 .menu-toggle {
 	float: left;
 	width: 40px;
@@ -1705,6 +1708,7 @@ header .logo a {
 }
 #resume .resume-header h2 {
 	color: #FF0077;
+	font-family: "poppins-semibold", serif;
 }
 
 #resume .resume-timeline {
@@ -1758,15 +1762,17 @@ header .logo a {
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
-	font-family: "poppins-semibold", sans-serif;
+	font-family: "Mukta", sans-serif;
 	font-size: 1.6rem;
-	color: #727272;
+	font-weight: 500;
+	color: #5d5d5d;
 }
 #resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
 }
 #resume .timeline-content h4 {
+	font-family: 'Nunito', sans-serif;
 	position: relative;
 	padding-bottom: 1.8rem;
 	color: #4b4b4b;
@@ -2503,7 +2509,7 @@ header .logo a {
 }
 .contact-info {
 	margin: 4.8rem auto 0;
-	font-family: "poppins-regular", sans-serif;
+	font-family: 'Nunito', sans-serif; 
 	font-size: 1.5rem;
 	text-align: center;
 }
