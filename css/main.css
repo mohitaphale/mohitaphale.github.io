@@ -1681,6 +1681,7 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
+		align-content: center;
 		height: 10rem;
 		width: 10rem;
 		float: none;
