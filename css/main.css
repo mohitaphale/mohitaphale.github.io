@@ -1835,10 +1835,14 @@ header .logo a {
 	}
 	#resume .timeline-content h4 {
 		padding-bottom: 0;
-		padding-top: 2.1rem;
+		padding-top: 1rem;
 		margin-bottom: .6rem;
 		font-size: 1.7rem;
 	}
+	#resume .timeline-content h3 {
+		margin-bottom: 0.5rem;
+	}
+
 	#resume .timeline-content h4::after {
 		bottom: auto;
 		top: 0;
