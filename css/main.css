@@ -1570,7 +1570,7 @@ header .logo a {
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 10rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1701,8 +1701,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
-	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-top: 10rem;
+	padding-bottom: 9rem;
 }
 
 #resume .resume-header {
@@ -1779,6 +1779,7 @@ header .logo a {
 	padding-bottom: 1.8rem;
 	color: #4b4b4b;
 }
+
 /*#resume .timeline-content h4::after {
 	content: "";
 	display: block;
