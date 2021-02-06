@@ -826,10 +826,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .drop-cap:first-letter {
 	float: left;
 	margin: 0;
-	padding: 1.5rem .6rem 0 0;
-	font-size: 8.4rem;
+	padding: 2rem .6rem 0 0;
+	font-size: 6rem;
 	font-family: "poppins-bold", sans-serif;
-	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
 	color: #313131;
@@ -1081,7 +1080,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #FF0077;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -2295,16 +2294,20 @@ header .logo a {
 	max-width: 1440px;
 }
 
-#styles { 
+#toolsoftrade { 
 	background: white;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
 }
-#styles .row {
-	max-width: 1024px;
+#toolsoftrade .row {
+	max-width: 80%;
   }
-  #styles .section-intro {
+  #toolsoftrade .section-intro {
 	max-width: 800px;
+}
+
+#toolsoftrade .bold {
+	font-family: 'Mukta', sans-serif;
+	font-style: bold;
 }
 
 #about .row2 {
