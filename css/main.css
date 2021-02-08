@@ -175,7 +175,8 @@ em, i {
 	font-family: "lora-italic", serif;
 }
 strong, b {
-	font-family: "lora-bold", serif;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 500;
 }
 small {
 	font-size: 1.2rem;
