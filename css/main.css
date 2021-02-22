@@ -172,11 +172,12 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "lora-italic", serif;
+	font-family: "Calibri", sans-serif;
+	font-style: italic;
 }
 strong, b {
-	font-family: 'Mukta', sans-serif;
-	font-weight: 500;
+	font-family: "Calibri", sans-serif;
+	font-weight: bold;
 }
 small {
 	font-size: 1.2rem;
