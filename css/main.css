@@ -704,29 +704,6 @@ input[type="button"] {
 	border-radius: 4px;
 }
 
-.mydocs {
-	display: inline-block;
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-	letter-spacing: .3rem;
-	height: 3.5rem;
-	line-height: 3.5rem;
-	padding: 0 1rem;
-	margin: 0 7px 10px 0;
-	text-decoration: none;
-	cursor: pointer;
-	text-align: center;
-	white-space: nowrap;
-	border: none;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	border-radius: 4px;
-}
-
 .button:hover,
 a.button:hover,
 button:hover,
@@ -986,6 +963,71 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 	color: #888888;
+}
+
+/**
+* Documents
+**/
+.doc-tags {
+	list-style: none;
+	margin: 6rem 0 3rem;
+}
+.doc-tags li {
+	height: .6rem;
+	width: 100%;
+	margin-bottom: 3rem;
+	padding: 0;
+	position: relative;
+}
+
+/*.skill-tags {
+	top: -3rem;
+	font-family: "poppins-semibold", sans-serif;
+	color: #464646;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}*/
+
+.doc-tags li strong {
+	position: absolute;
+	left: 0;
+	top: -3rem;
+	font-family: "poppins-semibold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+.doc-tags li .progress {
+	background: #313131;
+	position: relative;
+	height: 100%;
+}
+.doc-tags li .progress span {
+	position: absolute;
+	right: 0;
+	top: -3.6rem;
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: white;
+	font-size: 1.1rem;
+	line-height: 1;
+	background: #313131;
+	padding: .6rem .6rem;
+	border-radius: 3px;
+}
+.doc-tags li .progress span::after {
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	margin-left: -5px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-top: 5px solid #313131;
+	content: "";
 }
 
 /**
@@ -1597,6 +1639,7 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 10rem;
 }
+
 #about .section-intro {
 	margin-bottom: 3rem;
 }
