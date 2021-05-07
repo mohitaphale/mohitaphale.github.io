@@ -2792,3 +2792,8 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Documents */
+a.mydocs {
+	padding-left: 1.5%;
+}
